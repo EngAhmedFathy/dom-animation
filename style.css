@@ -1,0 +1,48 @@
+div {
+    margin: 100px auto;
+    padding: 10px;
+    background-color: brown;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    color: black;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: div;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: div2;
+
+}
+
+div :hover {
+    transform: translate(5px , 10px);
+}
+
+
+@keyframes div2 {
+    to {
+        color: green;
+    }
+    from {
+        color: darkblue;
+    }
+    
+}
+
+
+
+@keyframes div {
+    0% {
+        background-color: aqua;
+    }
+    50% {
+        background-color: rgb(25, 0, 255);
+    }
+    100% {
+        background-color: rgb(255, 0, 64);
+    }
+    
+    
+    
+}
